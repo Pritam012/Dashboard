@@ -165,15 +165,23 @@ h6{
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        height: auto;
+         height: fit-content; 
         border-radius: 30px;
         overflow: hidden;
-        padding: 20px;
-        margin-top: 10px;
+         padding: 20px; 
+        margin-top: 10px; 
         box-shadow: 5px 20px 35px #00303857;
         border-bottom: 2px solid #e6007e;
-        font-size: 10px;
+        font-size: 13px;
     
+}
+
+.announcement>h4 {
+    font-size: large;
+}
+
+.trending>h1 {
+    font-size: large;
 }
 
 .pack{
@@ -186,14 +194,17 @@ h6{
 }
 
 .annou:hover{
-    font-size: 18px ;
+    font-size: 25px ;
     
 }
 .announcement:hover{
-    height: 25vh;
+    margin-top: -25px;
+} 
+
+.projects>h4 {
+    font-weight: bolder;
+    font-size: x-large;
 }
-
-
 
 
 .trending {
@@ -204,11 +215,11 @@ h6{
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        height: auto;
+         height: fit-content; 
         border-radius: 30px;
-        font-size: 5px;
-        padding: 20px;
-        margin-top: 10px;
+        font-size: 13px;
+         padding: 20px;
+        margin-top: 100px;
         box-shadow: 5px 20px 35px #00303857;
         border-bottom: 2px solid #e6007e;
         font-weight: bold;
@@ -218,7 +229,7 @@ h6{
 
 
 #tren:hover{
-    font-size: 15px ;
+    font-size: 25px ;
     
     
 }
