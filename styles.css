@@ -167,11 +167,12 @@ h6{
         text-align: center;
         height: auto;
         border-radius: 30px;
-        
+        overflow: hidden;
         padding: 20px;
         margin-top: 10px;
         box-shadow: 5px 20px 35px #00303857;
         border-bottom: 2px solid #e6007e;
+        font-size: 10px;
     
 }
 
@@ -185,7 +186,7 @@ h6{
 }
 
 .annou:hover{
-    font-size: 25px ;
+    font-size: 18px ;
     
 }
 .announcement:hover{
@@ -202,16 +203,20 @@ h6{
         text-align: center;
         height: auto;
         border-radius: 30px;
-        
+        font-size: 5px;
         padding: 20px;
         margin-top: 10px;
         box-shadow: 5px 20px 35px #00303857;
         border-bottom: 2px solid #e6007e;
         font-weight: bold;
+        overflow: hidden;
 }
 
+
+
 #tren:hover{
-    font-size: 30px ;
+    font-size: 15px ;
+    
     
 }
 
